@@ -34,4 +34,4 @@ public class Startup
 
 ## Reporting bugs and requesting new features
 
-To report bugs or request for new features please use [[Issues](issues)](https://github.com/gregwiechec/bulk-edit-documentation/blob/master/issues) tab.  
+To report bugs or request for new features please use [Issues](https://github.com/gregwiechec/bulk-edit-documentation/issues) tab.  
