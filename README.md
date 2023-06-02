@@ -3,8 +3,7 @@ Documentation and issues tracking for BulkEdit addon
 
 ## Supported versions
 
-The supported version is EPiServer.CMS 12.17.1+
-EPiserver 11 is not supported.
+The supported version is EPiServer.CMS 12.17.1+. EPiserver 11 is not supported.
 
 ## Introduction
 
