@@ -56,6 +56,9 @@ After clicking **Next** the content are updates and Editor will see progress dia
 
 ### Hiding properties on bulk edit form
 
+By default, the Bulk Edit module allows you to eydt all fields defined on ContentType. You can change this behavior through code and hide selected properties on the editing form. To do this we need to use the `AllowBulkEdit` attribute, which is configured on the field.
+
+In the following example, the **TestProperty** field will not be editable with BulkEdit.
 ```c#
 [ContentType(GUID = "638D8271-5CA3-4C72-BABC-3E8779233263")]
 public class NewsPage : PageData
