@@ -81,6 +81,60 @@ Form is created from content types metadata.
 Editing content items using bulk edit will not start the transaction. Each content is saved separately.
 The update will not sop when one of the content was not saved successfully.
 
+### Options
+
+Some parts of the module are configurable using option classes.
+
+#### BulkEditOptions
+
+| Option        | Type | Default           | Description  |
+| ---- | ---- | ---- | ---- |
+| DefaultAllowBulkEditOnProperty | boolean | true | When true, then command is added to page tree |
+| ProjectCommandEnabled | boolean | true | When true, then command is added to projects overview |
+| MaximumSafeContentItemsToUpdate | boolean | true | Above this number the notification background color will change to warning |
+
+Example:
+
+```c#
+public class Startup
+{
+    ...
+    public void ConfigureServices(IServiceCollection services)
+    {
+        ...
+            services.Configure<BulkEditUiOptions>(o =>
+            {
+                o.PageTreeCommandEnabled = false;
+                o.ProjectCommandEnabled = false;
+                o.MaximumSafeContentItemsToUpdate = 1000;
+            });
+    ...
+}
+```
+
+#### BulkEditUiOptions
+
+
+| Option        | Type | Default           | Description  |
+| ---- | ---- | ---- | ---- |
+| PageTreeCommandEnabled | boolean | true | When true then bulk edit is enabled for property without using AllowBulkEdit attribute |
+
+```c#
+public class Startup
+{
+    ...
+    public void ConfigureServices(IServiceCollection services)
+    {
+        ...
+            services.Configure<BulkEditOptions>(o =>
+            {
+                o.DefaultAllowBulkEditOnProperty = false;
+            });
+    ...
+}
+```
+
+
 ## Reporting bugs and requesting new features
 
 To report bugs or request for new features please use [Issues](https://github.com/gregwiechec/bulk-edit-documentation/issues) tab.  
