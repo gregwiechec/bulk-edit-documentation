@@ -42,7 +42,10 @@ By selecting the "selected" option, you can manually select the pages to be edit
 
 ![Bulk Edit selector](assets/bulk_edit_selector.jpg "Bulk edit selector")
 
-When content items are selected, Editor can configure which fields should be edited
+Once Editor have decided which pages he wants to edit, he need to select the fields. This is done in an editing form similar to that used in ContentArea.
+The difference is that a checkbox is available next to each field label, which is used to select the fields to be edited. After selecting the checkbox, Editor needs to enter the value, which will be set, for all selected pages. More than one field can be selected.
+
+By default, the value of the first selected page is used.
 
 ![Bulk Edit form](assets/bulk_edit_form.jpg "Bulk edit form")
 
