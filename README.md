@@ -52,6 +52,8 @@ After clicking **Next** the content are updates and Editor will see progress dia
 
 ### Publishing edited content
 
+When using the Bulk Edit module, new draft pages are created, but they are not published. To improve publishng process, the Editor can add edited items to the project and use the Bulk Edit command available in the project overview.
+
 ![Bulk Edit project command](assets/bulk_edit_project_command.jpg "Bulk edit project command")
 
 ### Hiding properties on bulk edit form
