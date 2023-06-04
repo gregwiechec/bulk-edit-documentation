@@ -49,11 +49,13 @@ By default, the value of the first selected page is used.
 
 ![Bulk Edit form](assets/bulk_edit_form.jpg "Bulk edit form")
 
-After clicking **Next** the content are updates and Editor will see progress dialog
+After clicking **Next**, Editor see progress dialog and content items are updated 
 
 ![Bulk Edit progress](assets/bulk_edit_progress_window.jpg "Bulk edit progress")
 
 ### Handling errors
+
+When saving an item and error occured, the bulk edit continue updating other items. Error message is displayed next to content name.
 
 ![Bulk Edit save errors](assets/bulk_edit_save_error.jpg "Bulk edit save error")
 
