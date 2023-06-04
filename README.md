@@ -85,7 +85,12 @@ public class NewsPage : PageData
 
 ## How form is created
 
-Form is created from content types metadata.
+Form is created as a subset of selected ContentTypes. The properties have to match by name, type, but also by settings.
+
+![Bulk Edit metadata](assets/bulk_edit_metadata.jpg "Bulk edit metadata")
+
+In the example only Prop1 will be displayed in the editing form, because other properties does not match by type of settings.
+
 
 ## Limitations
 
