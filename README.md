@@ -30,11 +30,15 @@ public class Startup
 
 ## Using BulkEdit addon
 
-Bulk editing functionality is available from page tree
+Bulk Edit is a command available in the page tree. It can be selected from any tree item that has children.
 
 ![Bulk Edit command](assets/bulk_edit_command.jpg "Bulk edit command")
 
-When command was executed, the selection dialog is displayed
+After selecting the command, a dialog box is displayed with a selection of pages. You can edit all children, or all descendants.
+
+The list can also be filtered by type.
+
+By selecting the "selected" option, you can manually select the pages to be edited.
 
 ![Bulk Edit selector](assets/bulk_edit_selector.jpg "Bulk edit selector")
 
@@ -79,6 +83,8 @@ public class NewsPage : PageData
 Form is created from content types metadata.
 
 ## Limitations
+
+### There is no transaction
 
 Editing content items using bulk edit will not start the transaction. Each content is saved separately.
 The update will not sop when one of the content was not saved successfully.
