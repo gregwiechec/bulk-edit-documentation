@@ -2,6 +2,10 @@
 
 Repository for documentation and issues tracking for BulkEdit EPiserver addon.
 
+## Introduction
+
+Bulk Edit is a plugin that allows to make changes to more than one Content at the same time. This can save time by simultaneously updating multiple properties that share the same information.
+
 ## Supported versions
 
 The supported version is EPiServer.CMS 12.17.1+. EPiserver 11 is not supported.
