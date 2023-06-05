@@ -4,7 +4,7 @@ Repository for documentation and issues tracking for BulkEdit EPiserver addon.
 
 ## Introduction
 
-Bulk Edit is a plugin that allows to make changes to more than one Content at the same time. This can save time by simultaneously updating multiple properties that share the same information.
+Bulk Edit is a plugin that allows to make changes to more than one Content at the same time. This can save time by simultaneously updating multiple properties that share the same information. This can be useful when a new property has been added to a ContentType and a default value needs to be assigned, or for making periodic (e.g. monthly) updates to the property.
 
 ## Supported versions
 
