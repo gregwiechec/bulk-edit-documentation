@@ -112,8 +112,6 @@ Some parts of the module are configurable using option classes.
 | Option        | Type | Default           | Description  |
 | ---- | ---- | ---- | ---- |
 | DefaultAllowBulkEditOnProperty | boolean | true | When true, then command is added to page tree |
-| ProjectCommandEnabled | boolean | true | When true, then command is added to projects overview |
-| MaximumSafeContentItemsToUpdate | boolean | true | Above this number the notification background color will change to warning |
 
 Example:
 
@@ -140,6 +138,9 @@ public class Startup
 | Option        | Type | Default           | Description  |
 | ---- | ---- | ---- | ---- |
 | PageTreeCommandEnabled | boolean | true | When true then bulk edit is enabled for property without using AllowBulkEdit attribute |
+| ProjectCommandEnabled | boolean | true | When true, then command is added to projects overview |
+| AssetsPaneCommandEnabled | boolean | false | When true, then Assets pane command is enabled |
+| MaximumSafeContentItemsToUpdate | boolean | true | Above this number the notification background color will change to warning |
 
 ```c#
 public class Startup
